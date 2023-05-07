@@ -1,0 +1,67 @@
+@font-face {
+    font-family: archia;
+    src: url(../public/archia-medium-webfont.woff2);
+}
+*{
+    font-family: archia;
+}
+
+
+.profile-sideLinkButton{
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+}
+
+.profile-active-tabs::after {
+    content: "";
+    display: block;
+    /* background-color: transparent; */
+    position: absolute;
+    top: 0px;
+    left: 55%;
+    transform: translate(-55%,900%);
+    width: 100px;
+    height: 3px;
+    /* background: rgb(88, 147, 241); */
+    background: rgb(0 128 255);
+    border-radius: 1px;
+}
+
+.profile-tab{
+    display: none;
+}
+
+.profile-activeTab{
+    display: block;
+}
+
+ /* ------ Certifications tab styles below here ----------- */
+.C-main-div{
+    height: 30% !important;
+    overflow-y: scroll;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px; 
+}
+
+.C-flex-first{
+    flex-basis: 45%;
+    padding: 10px;
+    max-height: 200px;
+}
+
+.C-flex-second{
+    flex-basis: 55%;
+    padding: 10px;
+    max-height: 200px;
+}
+
+.C-flex-first-button,.C-flex-second-div{
+    width: 100%;
+    margin: 10px 0px;
+}
+
