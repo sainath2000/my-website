@@ -15,7 +15,7 @@ export default function About() {
       {/* photo tab */}
       <div className=' text-white d-flex align-items-center justify-content-center' style={{backgroundImage:"url('./bgvpicture.jpg'",backgroundRepeat:"no-repeat",backgroundSize:"cover",height:"75vh"}} >
         <div className=' text-center'>
-          <div className=' mb-3'><img className=' border rounded-circle' src='./myphoto.jpg' alt='' height={150} width={150} /></div>
+          <div className=' mb-3'><img className=' border rounded-circle' src='./myphoto.png' alt='' height={150} width={150} /></div>
           <p className='' style={{ fontSize: "20px" }}>I Am <span style={{ fontSize: "25px" }}><Typewriter words={['Developer', 'Tech Aspirant']} cursor cursorStyle='|' typeSpeed={100} deleteSpeed={100} loop={ true} /></span></p>
         </div>
         
