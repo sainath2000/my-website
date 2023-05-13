@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.9c10c430.css",
-    "main.js": "/my-website/static/js/main.de3ffa7b.js",
+    "main.js": "/my-website/static/js/main.1cc3dd38.js",
     "static/media/archia-medium-webfont.woff2": "/my-website/static/media/archia-medium-webfont.d147df6d62086c7bc870.woff2",
     "index.html": "/my-website/index.html",
     "main.9c10c430.css.map": "/my-website/static/css/main.9c10c430.css.map",
-    "main.de3ffa7b.js.map": "/my-website/static/js/main.de3ffa7b.js.map"
+    "main.1cc3dd38.js.map": "/my-website/static/js/main.1cc3dd38.js.map"
   },
   "entrypoints": [
     "static/css/main.9c10c430.css",
-    "static/js/main.de3ffa7b.js"
+    "static/js/main.1cc3dd38.js"
   ]
 }
