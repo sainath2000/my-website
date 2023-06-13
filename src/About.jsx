@@ -1,5 +1,4 @@
 import React from 'react' 
-import Button from 'react-bootstrap/Button';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -18,8 +17,8 @@ export default function About() {
           <div className=' mb-3'><img className=' border rounded-circle' src='./myphoto.png' alt='' height={150} width={150} /></div>
           <p className='' style={{ fontSize: "20px" }}>I Am <span style={{ fontSize: "25px" }}><Typewriter words={['Developer', 'Tech Aspirant']} cursor cursorStyle='|' typeSpeed={100} deleteSpeed={100} loop={ true} /></span></p>
         </div>
-        
       </div>
+
       {/* Skills tab  */}
       <div>
         <div className=' w-75 m-auto mt-3 mb-4 row'>
@@ -60,6 +59,7 @@ export default function About() {
               </Card.Body>
             </Card>
           </div>
+
           <div className="p-0 col-8 col-sm-4 col-md-4 col-lg-3 m-3 text-center" >
             <Card className=' p-3'>
               <Card.Body>
@@ -68,6 +68,7 @@ export default function About() {
               </Card.Body>
             </Card>
           </div>
+
           <div className="p-0 col-8 col-sm-4 col-md-4 col-lg-3 m-3 text-center" >
             <Card className=' p-3'>
               <Card.Body>
@@ -77,7 +78,6 @@ export default function About() {
             </Card>
           </div>
 
-          
         </div>
       </div>
       

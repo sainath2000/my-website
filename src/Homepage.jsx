@@ -8,8 +8,6 @@ import Certifications from './Certifications';
 import About from './About';
 import './styled.css'
 
-
-
 export default function Homepage() {
     const [expanded, setExpanded] = useState(false);
     const [toggleState, setToggleState] = useState(1);
@@ -37,17 +35,17 @@ export default function Homepage() {
         </Navbar>
 
 
-        {/* About me content  */}
+        {/* About me tab content  */}
         <div className={toggleState === 1 ? "profile-tab  profile-activeTab" : "profile-tab"}>
             <About/>
         </div>
 
-        {/* Projects content  */}
+        {/* Projects tab content  */}
         <div className={toggleState === 2 ? "profile-tab  profile-activeTab" : "profile-tab"}>
             <Projects/>      
         </div>
         
-        {/* Certifications content  */}
+        {/* Certifications tab content  */}
         <div className={toggleState === 3 ? "profile-tab  profile-activeTab" : "profile-tab"} >
             <Certifications/>              
         </div>
